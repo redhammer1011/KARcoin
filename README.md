@@ -37,3 +37,6 @@ Coins can be cashed out for sponsored rewards such as discounts or free stuff. M
 Friends List
 
 Not necessary, but could track friends good driving, trade, compete, etc.
+
+
+NOTE: Included is code for the basic UI of our application. This can be found under the 'Figma_Flutter_Code' folder
