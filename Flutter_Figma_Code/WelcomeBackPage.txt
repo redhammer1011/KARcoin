@@ -1,0 +1,301 @@
+Container(
+    width: 375,
+    height: 812,
+    color: Colors.white,
+    child: Stack(
+        children:[
+            Positioned(
+                left: 16,
+                top: 564,
+                child: Container(
+                    width: 343,
+                    height: 126,
+                    child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children:[
+                            Container(
+                                width: 343,
+                                height: 126,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(47),
+                                    color: Color(0xffde8e8e),
+                                ),
+                                padding: const EdgeInsets.only(left: 32, right: 31, ),
+                                child: Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children:[
+                                        SizedBox(
+                                            width: 281.44,
+                                            height: 82.35,
+                                            child: Text(
+                                                "START MY DRIVE",
+                                                textAlign: TextAlign.center,
+                                                style: TextStyle(
+                                                    color: Colors.black,
+                                                    fontSize: 36,
+                                                    fontFamily: "PT Sans Narrow",
+                                                    fontWeight: FontWeight.w700,
+                                                    letterSpacing: 1.44,
+                                                ),
+                                            ),
+                                        ),
+                                    ],
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 296,
+                top: 762,
+                child: Container(
+                    width: 43,
+                    height: 41,
+                ),
+            ),
+            Positioned(
+                left: 119,
+                top: 734,
+                child: Container(
+                    width: 106.99,
+                    height: 78,
+                ),
+            ),
+            Positioned.fill(
+                child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Container(
+                        width: 78,
+                        height: 76,
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 144,
+                top: 414,
+                child: SizedBox(
+                    width: 141,
+                    height: 54,
+                    child: Text(
+                        "",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 18,
+                            letterSpacing: 0.72,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned.fill(
+                child: Align(
+                    alignment: Alignment.topLeft,
+                    child: Transform.rotate(
+                        angle: -1.40,
+                        child: Container(
+                            width: 340.80,
+                            height: 347.69,
+                            decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xffe16666), Color(0x00c4c4c4)], ),
+                            ),
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 242,
+                top: 176,
+                child: Container(
+                    width: 73,
+                    height: 48,
+                    child: FlutterLogo(size: 48),
+                ),
+            ),
+            Positioned(
+                left: -31,
+                top: 104,
+                child: SizedBox(
+                    width: 361,
+                    height: 68,
+                    child: Text(
+                        "WELCOME BACK CHRIS!",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 30,
+                            fontFamily: "PT Sans Narrow",
+                            fontWeight: FontWeight.w700,
+                            letterSpacing: 1.20,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: -46,
+                top: 166,
+                child: SizedBox(
+                    width: 321,
+                    height: 78,
+                    child: Text(
+                        "YOU CURRENTLY HAVE",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Color(0xff962525),
+                            fontSize: 23,
+                            fontFamily: "PT Sans Narrow",
+                            fontWeight: FontWeight.w700,
+                            letterSpacing: 0.92,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 148,
+                top: 364,
+                child: Container(
+                    width: 218,
+                    height: 145,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8),
+                        gradient: LinearGradient(begin: Alignment.centerRight, end: Alignment.centerLeft, colors: [Color(0xffdf8a8a), Color(0x00df8a8a)], ),
+                    ),
+                    child: Stack(
+                        children:[
+                            Positioned(
+                                left: 17,
+                                top: 44,
+                                child: SizedBox(
+                                    width: 159,
+                                    height: 29,
+                                    child: Text(
+                                        "5.4 SEC AVERAGE AT STOP SIGN, TRY TO IMPROVE.\nGOOD JOB FOLLOWING THE SPEED LIMIT ",
+                                        textAlign: TextAlign.center,
+                                        style: TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 15,
+                                            letterSpacing: 0.60,
+                                        ),
+                                    ),
+                                ),
+                            ),
+                            Positioned(
+                                left: 123,
+                                top: 78,
+                                child: Container(
+                                    width: 70,
+                                    height: 49,
+                                    child: FlutterLogo(size: 49),
+                                ),
+                            ),
+                            Positioned(
+                                left: 94,
+                                top: 96,
+                                child: SizedBox(
+                                    width: 57,
+                                    height: 21,
+                                    child: Text(
+                                        "+13",
+                                        textAlign: TextAlign.center,
+                                        style: TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 15,
+                                            fontFamily: "PT Sans Narrow",
+                                            fontWeight: FontWeight.w700,
+                                            letterSpacing: 0.60,
+                                        ),
+                                    ),
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 191,
+                top: 160,
+                child: SizedBox(
+                    width: 101,
+                    height: 81,
+                    child: Text(
+                        "47",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Color(0xff1c1919),
+                            fontSize: 36,
+                            fontFamily: "PT Sans Narrow",
+                            fontWeight: FontWeight.w700,
+                            letterSpacing: 1.44,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 6,
+                top: 395,
+                child: SizedBox(
+                    width: 148,
+                    height: 76,
+                    child: Text(
+                        "YOUR LAST DRIVE",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 34,
+                            fontFamily: "PT Sans Narrow",
+                            fontWeight: FontWeight.w700,
+                            letterSpacing: 1.36,
+                        ),
+                    ),
+                ),
+            ),
+            Positioned.fill(
+                child: Align(
+                    alignment: Alignment.bottomLeft,
+                    child: Container(
+                        width: 375,
+                        height: 80,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            border: Border.all(color: Color(0x05000000), width: 1, ),
+                            color: Color(0xfffa7777),
+                        ),
+                        padding: const EdgeInsets.only(left: 42, right: 43, top: 10, bottom: 24, ),
+                        child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children:[
+                                Container(
+                                    width: 49,
+                                    height: 46,
+                                    child: FlutterLogo(size: 46),
+                                ),
+                                SizedBox(width: 200),
+                                Container(
+                                    width: 41,
+                                    height: 43,
+                                    child: FlutterLogo(size: 41),
+                                ),
+                            ],
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 119,
+                top: 734,
+                child: Container(
+                    width: 125,
+                    height: 78,
+                    child: FlutterLogo(size: 78),
+                ),
+            ),
+        ],
+    ),
+)
